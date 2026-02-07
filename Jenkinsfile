@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE = "sharikm/static-burger"
         DOCKER_TAG   = "55"
         GIT_REPO     = "git@github.com:sharik-malik/burger-project.git"
-        GIT_BRANCH   = "main"
+        GIT_BRANCH   = "master"
     }
 
     stages {
